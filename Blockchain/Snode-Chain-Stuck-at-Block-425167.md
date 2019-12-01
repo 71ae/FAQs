@@ -12,7 +12,7 @@ at 19:13 UTC.
 1. Back up your wallet.dat. It contains your addresses and keys.
 
 2. Download the bootstrap file `snd-bootstrap-425787.zip`
-[here](https://ufile.io/7jmmvf66) (or here).
+[here](https://ufile.io/7jmmvf66) or [here](https://gofile.io/?c=Er4XbJ).
 
 3. Stopp your Wallet application.
 
