@@ -11,8 +11,8 @@ at 19:13 UTC.
 
 1. Back up your wallet.dat. It contains your addresses and keys.
 
-2. Download the bootstrap file `snd-bootstrap-425787.zip` from this
-directory on this Github project.
+2. Download the bootstrap file
+[snd-bootstrap-425787.zip](https://file.io/UYJvHg).
 
 3. Stopp your Wallet application.
 
@@ -27,7 +27,7 @@ It may sit in:
 You can delete `debug.log` as well,
 especially if it became pretty big meanwhile.
 
-6. Unzip the bootstrap file within this Snodecoin directory.
+6. Copy the bootstrap file into this Snodecoin directory and unzip it here.
 
 7. Now you may re-start your Wallet application again.
 
