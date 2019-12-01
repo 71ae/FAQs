@@ -41,26 +41,18 @@ and write down a few Masternodes that recently got paid.
 * Add a few of them, one by one, in the console:
 `addnode 1.2.3.4 add` (replace the IP address with that from MNO)
 
-This has worked for my Masternode on my own VPS.
+This has worked for my Masternodes on my own VPSs, and finally
+on the Desktop wallet as well.
 
-It still hasn't worked for my Desktop Wallet.
+But with few MNs live on the network they exceed their connection slots
+quickly. The default is `maxconnections=125`, which apparently is not
+enough.
 
-To repair the desktop wallet, I had to do the following steps just in
-the right timing:
+### Masternode
 
-* Have my own Masternode working.
-* Stopp Desktop wallet and Masternode.
-* Restart Masternode daemon.
-* Add `connect=1.2.3.4:18988` to the `snodecoin.conf` of my Desktop wallet.
-* Wait a minute.
-* Start Desktop wallet.
-
-The desktop now connects to my masternode. Still I'm not getting any
-connections to any other peers on my Desktop wallet. Well, maybe I just
-need to have patience, though...?
-
-Once I will get new peers, the `connect` entry in my local config
-needs to be removed again.
+If you are a mastenode owner, please add a line `maxconnections=1250`
+or even with a higher number for your `snodecoin.conf` file and
+restart your masternode. This will help the network to recover.
 
 
 # Author
@@ -82,3 +74,4 @@ If you find this helpful, a small donation always is welcome
 # License
 The content of this project itself is licensed under the
 [Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/) (CC0-1.0).
+
