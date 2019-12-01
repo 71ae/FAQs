@@ -51,7 +51,7 @@ enough.
 ### Masternode
 
 If you are a mastenode owner, please add a line `maxconnections=1250`
-or even with a higher number for your `snodecoin.conf` file and
+or even with a higher number to your `snodecoin.conf` file and
 restart your masternode. This will help the network to recover.
 
 
