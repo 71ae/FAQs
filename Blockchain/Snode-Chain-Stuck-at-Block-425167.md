@@ -12,7 +12,7 @@ at 19:13 UTC.
 1. Back up your wallet.dat. It contains your addresses and keys.
 
 2. Download the bootstrap file `snd-bootstrap-425787.zip`
-[here](https://ufile.io/7jmmvf66) or [here]().
+[here](https://ufile.io/7jmmvf66) (or here).
 
 3. Stopp your Wallet application.
 
@@ -40,6 +40,27 @@ switch to the "Debug Console" and add a few nodes yourself:
 and write down a few Masternodes that recently got paid.
 * Add a few of them, one by one, in the console:
 `addnode 1.2.3.4 add` (replace the IP address with that from MNO)
+
+This has worked for my Masternode on my own VPS.
+
+It still hasn't worked for my Desktop Wallet.
+
+To repair the desktop wallet, I had to do the following steps just in
+the right timing:
+
+* Have my own Masternode working.
+* Stopp Desktop wallet and Masternode.
+* Restart Masternode daemon.
+* Add `connect=1.2.3.4:18988` to the `snodecoin.conf` of my Desktop wallet.
+* Wait a minute.
+* Start Desktop wallet.
+
+The desktop now connects to my masternode. Still I'm not getting any
+connections to any other peers on my Desktop wallet. Well, maybe I just
+need to have patience, though...?
+
+Once I will get new peers, the `connect` entry in my local config
+needs to be removed again.
 
 
 # Author
