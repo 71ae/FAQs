@@ -17,7 +17,5 @@ If you find this helpful, a small donation always is welcome
 
 # License
 The content of this project itself is licensed under the
-[Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/) (CC0-1.0),
-and the underlying source code used to format and display that content
-is licensed under the [MIT license](https://choosealicense.com/licenses/mit/).
+[Creative Commons Zero v1.0 Universal](https://choosealicense.com/licenses/cc0-1.0/) (CC0-1.0).
 
