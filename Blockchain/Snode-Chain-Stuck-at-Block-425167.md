@@ -1,6 +1,6 @@
 # Snode
 
-Snode (SND)
+[Snode (SND)](https://github.com/snodeco/snode-coin)
 
 ## Blockchain stuck
 
